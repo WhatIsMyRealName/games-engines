@@ -19,7 +19,7 @@ from bobail_config import (
     SELF_PLAY_TAU,
 )
 from bobail_encoding import adapt_moves_pov, transform_input_data
-from bobail_model_zero import _Network
+from bobail_model import _Network
 from bobailgame import BobailGame, Move, Position
 
 NodeKey: TypeAlias = tuple[tuple[Position, ...], tuple[Position, ...], Position, int]
